@@ -13,11 +13,11 @@ The architecture is designed for modularity, reliability, and low latency.
 ## 1. Firmware
 
 **Responsibilities:**
-- Scan 4x4 button matrix with diodes to prevent ghosting
+- Scan 3x2 button matrix with diodes to prevent ghosting
 - Read rotary encoder inputs
 - Manage 3 operating modes and context-specific mapping of buttons and encoders
 - Drive the OLED display over I2C
-- Control 16 SK6812 MINI-E RGB LEDs for feedback
+- Control 2 SK6812 MINI-E RGB LEDs for feedback
 - Communicate with Linux daemon via USB HID or serial interface
 - Ensure deterministic execution of critical system commands (panic button, macro sequences)
 

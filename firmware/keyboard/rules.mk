@@ -1,0 +1,6 @@
+RAW_ENABLE = yes       
+OLED_ENABLE = yes         
+RGB_MATRIX_ENABLE = yes    
+ENCODER_ENABLE = yes     
+MCU = RP2040
+BOOTLOADER = rp2040
